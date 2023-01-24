@@ -69,3 +69,6 @@ label {
     font-family: var(--fonte-padrao);
     color: white;    
 }
+span {
+    color: var(--cor3);    
+}
