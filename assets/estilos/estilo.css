@@ -1,4 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+:root {
+    --cor0: #624AE8;
+    --cor1: #5E72FF;
+    --cor2: #4A86E8;
+    --cor3: #52C1FF;
+
+    --fonte-padrao: 'Michroma', sans-serif;
+    --fonte-destaque: 'Black Ops One', cursive;
+    --fonte-android: 'Android', cursive;
+}
+
 * {
     padding: 0;
     margin: 0;
+}
+.titulo {
+    font-family: var(--fonte-destaque);
+    font-size: 3em;    
+    margin: 3%;
+    color: white;
+    text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.535);
+    text-align: center;
+}
+.containerPersonalizado {
+    border-radius: 10px;
+    background-color: var(--cor2);
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.535);
+}
+.form-group {
+    justify-content: center;
+    align-items: center;    
+}
+body {    
+    background-color: #5d6070;    
+    width: 100vw;
+    height: 100vh;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor3);
+}
+form {
+    font-size: 1.5em;    
+}
+.cadaInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    padding: 10px;
+    border: 1px solid var(--cor2);
+    border-radius: 5px;
+    margin: 10px;
+    outline: 0;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.535);
+}
+label {
+    color: white;
+    font-family: var(--fonte-padrao);
+}
+.cadastro {
+    font-size: 0.7em;
+    color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    color: white;    
 }
