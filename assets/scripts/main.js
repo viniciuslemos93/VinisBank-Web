@@ -13,16 +13,22 @@ function cadastrar() {
 
 }
 function logar() {
-  let login = this.lerDadosLogin();
-  if (validarCamposLogin(login) == true) {
-    login.email = sessionStorage.getItem("email")
-    login.senha = sessionStorage.getItem("senha")
-      
-      window.location.href = "assets/paginas/home.html";    
+  let dadosLogin = this.lerDadosLogin();
+  //Pegando os dados de login que o usuário cadastrou pelo SessionStorage e guardando nas variáveis email e senha.
+  login.emailBD = sessionStorage.getItem("email")
+  login.senhaBD = sessionStorage.getItem("senha")
+
+  if (validarCamposLogin(dadosLogin) == true) {
+    
+      if (dadosLogin.email === login.emailBD) {
+        alert('LOGOU!!')
+        window.location.href = "assets/paginas/home.html";
+      }else
+        alert('Login incorreto!')
   }else {
 
   }
-  
+
 }
 
 function validarCamposLogin(login) {
