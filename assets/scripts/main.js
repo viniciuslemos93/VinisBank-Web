@@ -27,6 +27,9 @@ function validarCamposCadastro(usuario) {
     if (!usuario.confirmarSenha) {
   msg += 'Confirme a sua senha \n'
   }
+  if (usuario.senha != usuario.confirmarSenha) {
+    msg += 'As senhas não conferem'
+  }
   if (msg != '') {
     alert(msg)
     return false
