@@ -1,17 +1,46 @@
 function cadastrar() {
-  let usuario = this.lerDados();
-  console.log(usuario.nomeCompleto)
+  let usuario = this.lerDadosCadastro();
+  
   if (validarCamposCadastro(usuario) == true) {    
-    alert ("Ok, Camos Preenchidos")    
+    window.location.href = "../../index.html";
     sessionStorage.setItem("nomeCompleto", usuario.nomeCompleto);
-    sessionStorage.setItem("email", usuario.nomeCompleto);
+    sessionStorage.setItem("email", usuario.email);
     sessionStorage.setItem("senha", usuario.senha);
     sessionStorage.setItem("confirmarSenha", usuario.confirmarSenha);
   }else {
-    
+
   }
 
 }
+function logar() {
+  let login = this.lerDadosLogin();
+  if (validarCamposLogin(login) == true) {
+    login.email = sessionStorage.getItem("email")
+    login.senha = sessionStorage.getItem("senha")
+      
+      window.location.href = "assets/paginas/home.html";    
+  }else {
+
+  }
+  
+}
+
+function validarCamposLogin(login) {
+  let msg = ''
+  
+  if (!login.email) {
+    msg += 'Informe o seu e-mail para login \n'
+  }
+  if (!login.senha) {
+    msg += 'Informe a sua senha \n'  
+  if (msg != '') {
+    alert(msg)
+    return false
+  }
+    return true
+  }
+}
+
 function validarCamposCadastro(usuario) {
   let msg = ''
 
@@ -37,7 +66,14 @@ function validarCamposCadastro(usuario) {
     return true
   }
 
-  function lerDados() {
+  function lerDadosLogin() {
+    let login = {}
+      login.email = document.getElementById('login').value
+      login.senha = document.getElementById('senha').value      
+    return login;
+  }
+
+  function lerDadosCadastro() {
     let usuario = {}
       usuario.nomeCompleto = document.getElementById('nomeCompleto').value
       usuario.email = document.getElementById('email').value
