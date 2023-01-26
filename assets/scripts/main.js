@@ -43,8 +43,9 @@ function validarCamposLogin(login) {
     alert(msg)
     return false
   }
-    return true
+    
   }
+  return true
 }
 
 function validarCamposCadastro(usuario) {
