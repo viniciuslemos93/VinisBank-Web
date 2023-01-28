@@ -4,7 +4,7 @@ function cadastrar() {
   if (validarCamposCadastro(usuario) == true) {    
     window.location.href = "../../index.html";
     sessionStorage.setItem("nomeCompleto", usuario.nomeCompleto);
-    sessionStorage.setItem("email", usuario.email);
+    sessionStorage.setItem("login", usuario.email);
     sessionStorage.setItem("senha", usuario.senha);
     sessionStorage.setItem("confirmarSenha", usuario.confirmarSenha);
   }else {
@@ -15,14 +15,14 @@ function cadastrar() {
 function logar() {
   let dadosLogin = this.lerDadosLogin();
   //Pegando os dados de login que o usuário cadastrou pelo SessionStorage e guardando nas variáveis email e senha.
-  login.emailBD = sessionStorage.getItem("email")
+  login.loginBD = sessionStorage.getItem("login")
   login.senhaBD = sessionStorage.getItem("senha")
 
   if (validarCamposLogin(dadosLogin) == true) {
     
-      if (dadosLogin.email === login.emailBD) {
+      if (dadosLogin.email === login.loginBD) {
         alert('LOGOU!!')
-        window.location.href = "assets/paginas/home.html";
+        window.location.href = "assets/pages/home.html";
       }else
         alert('Login incorreto!')
   }else {
