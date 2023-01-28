@@ -76,7 +76,7 @@ function validarCamposCadastro(usuario) {
   function lerDadosLogin() {
     let login = {}
       login.email = document.getElementById('login').value
-      login.senha = document.getElementById('senha').value      
+      login.senha = document.getElementById('senha').value
     return login;
   }
 
@@ -88,3 +88,4 @@ function validarCamposCadastro(usuario) {
       usuario.confirmarSenha = document.getElementById('confirmarSenha').value
     return usuario;    
   }
+

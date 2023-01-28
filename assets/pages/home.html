@@ -10,11 +10,22 @@
 </head>
 <body>
 
-    <main class="container containerPersonalizado">
-        <h1>Página de Login do Usuário</h1>
+    <main class="container containerPersonalizado" id="container">
+        <script>            
+            var login = sessionStorage.getItem("login")
+            
+            mostrarCabecalho = `
+
+                <header class="container">
+                    <h1>Bem vindo(a) ${login}</h1>
+                </header>
+                `
+        document.getElementById('container').innerHTML = mostrarCabecalho;
+         </script>
     </main>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 <script src="../scripts/main.js"></script>
+
 </html>
