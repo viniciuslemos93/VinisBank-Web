@@ -10,11 +10,10 @@
 </head>
 <body>
 
-    <main class="container containerPersonalizado" id="container">
+    <main class="container containerPersonalizado d-flex align-items-center" id="container">
         <script>            
-            var login = sessionStorage.getItem("login")
-            
-            mostrarCabecalho = `
+            var login = sessionStorage.getItem("login")            
+            mostrarCabecalho =`
 
                 <header class="container">
                     <h1>Bem vindo(a) ${login}</h1>
@@ -22,6 +21,12 @@
                 `
         document.getElementById('container').innerHTML = mostrarCabecalho;
          </script>
+        <div class="container">
+            <strong>Saldo: R$ 100,00</strong>
+        </div>
+        <div class="container">
+            <strong>Sair</strong>
+        </div>
     </main>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
