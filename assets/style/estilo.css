@@ -83,6 +83,7 @@ span {
 }
 #menuPrincipal {
     background-color: var(--cor3);
+    padding: 1em;
 }
 .card{    
     
@@ -90,6 +91,13 @@ span {
     margin: 30px 30px;
     height: 7em;
 }
+.item-image {
+    width: 125px;
+    border: 1px solid var(--cor0);    
+}
 .item {
-    width: 100px;
+    border: 1px solid black;
+}
+.item p {
+    text-align: center;
 }
