@@ -9,26 +9,51 @@
     <title>VinisBank - Web | Home</title>
 </head>
 <body>
-
-    <main class="container containerPersonalizado d-flex align-items-center" id="container">
-        <script>            
+    <div class="container">
+        <!--
+        <script>
             var login = sessionStorage.getItem("login")            
             mostrarCabecalho =`
-
                 <header class="container">
-                    <h1>Bem vindo(a) ${login}</h1>
+                    <h1 class="titulo">VinisBank Web | <span>Home</span></h1>
+                        <div class="text-sm-left justify-content-center">
+                            <p class="bem-vindo">Bem vindo(a) ${login}</p>
+                            <p class="saldo">Saldo: R$ 250,00</p>
+                        </div>                        
+                        <a class="bem-vindo d-flex justify-content-end" href="../../index.html">Sair</a>
                 </header>
+                
                 `
         document.getElementById('container').innerHTML = mostrarCabecalho;
          </script>
-        <div class="container">
-            <strong>Saldo: R$ 100,00</strong>
+         
+        <div>
+            <strong>Saldo<br>R$ 100,00</strong>
         </div>
-        <div class="container">
-            <strong>Sair</strong>
+        <div>
+            <a href="../../index.html"><strong>Sair</strong></a>
         </div>
-    </main>
-    
+        -->
+        <header class="container containerPersonalizado">
+            <h1 class="titulo">VinisBank Web | <span>Home</span></h1>
+                <div class="text-sm-left justify-content-center">
+                    <p class="bem-vindo">Bem vindo(a) ${login}</p>
+                    <p class="saldo">Saldo: R$ 250,00</p>
+                    <a class="bem-vindo" href="../../index.html">Sair</a>
+                </div>
+        </header>
+        <main id="menuPrincipal" class="rounded d-flex">
+            <div class="item">
+                <img src="https://img.icons8.com/color/512/boleto-bankario.png" class="item" alt="ícone do boleto-bankario">
+                <p>Teste</p>
+            </div>
+            <div class="item">
+                <img src="https://logopng.com.br/logos/pix-106.png" class="item" alt="ícone do PIX">
+                <p>Teste</p>
+            </div>
+            
+        </main>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 <script src="../scripts/main.js"></script>

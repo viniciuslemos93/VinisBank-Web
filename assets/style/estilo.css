@@ -9,7 +9,6 @@
 
     --fonte-padrao: 'Michroma', sans-serif;
     --fonte-destaque: 'Black Ops One', cursive;
-    --fonte-android: 'Android', cursive;
 }
 
 * {
@@ -27,7 +26,7 @@
 .containerPersonalizado {
     border-radius: 10px;
     background-color: var(--cor2);
-    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.535);
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.535);    
 }
 .form-group {
     justify-content: center;
@@ -71,4 +70,26 @@ label {
 }
 span {
     color: var(--cor3);    
+}
+.bem-vindo {
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    color: white;
+    
+}
+.saldo {
+    color: white;
+    font-family: var(--fonte-destaque);
+}
+#menuPrincipal {
+    background-color: var(--cor3);
+}
+.card{    
+    
+    padding: 30px;
+    margin: 30px 30px;
+    height: 7em;
+}
+.item {
+    width: 100px;
 }
