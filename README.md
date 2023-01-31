@@ -15,7 +15,7 @@
  &#xa0;
  
 ## :dart: Sobre
-<p>O principal objetivo do projeto foi solidificar mais o conceito de Orientação a Objetos com o Javascript.</p>
+<p>O principal objetivo do projeto foi solidificar mais o conceito de posicionamento dos elementos da página.</p>
 <p>E também consolidar o conhecimento do Framework Bootstrap para a estilização.</p>
 
 &#xa0;
@@ -44,6 +44,13 @@ $ git clone https://github.com/viniciuslemos93/VinisBank-Web.git
 
 # Acesse a pasta do projeto e abra o arquivo index.html no navegador
 ```
+
+&#xa0;
+
+## :pencil2: Layout
+<div align="center">
+<img align="center" alt="Print da tela da aplicação"width="500" src="./assets/images/print-tela-principal.PNG">
+</div>
 
 &#xa0;
 
