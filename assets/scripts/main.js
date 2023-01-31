@@ -20,8 +20,7 @@ function logar() {
 
   if (validarCamposLogin(dadosLogin) == true) {
     
-      if (dadosLogin.email === login.loginBD) {
-        alert('LOGOU!!')
+      if (dadosLogin.email === login.loginBD && dadosLogin.senha === login.senhaBD) {
         window.location.href = "assets/pages/home.html";
       }else
         alert('Login incorreto!')
@@ -35,7 +34,7 @@ function validarCamposLogin(login) {
   let msg = ''
   
   if (!login.email) {
-    msg += 'Informe o seu e-mail para login \n'
+    msg += 'Informe o seu usuário de Login\n'
   }
   if (!login.senha) {
     msg += 'Informe a sua senha \n'  
@@ -55,7 +54,7 @@ function validarCamposCadastro(usuario) {
     msg += 'Informe o seu nome completo \n'
   }
   if (!usuario.email) {
-    msg += 'Informe o seu e-mail \n'
+    msg += 'Informe o seu Login de usuário \n'
   }
   if (!usuario.senha) {
     msg += 'Informe a sua senha \n'
