@@ -23,6 +23,8 @@
 ## :computer: Tecnologias
 * [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 
+* [CSS](https://www.w3schools.com/css/)
+
 * [JavaScript](https://www.javascript.com/)
 
 * [Bootstrap](https://getbootstrap.com/)
