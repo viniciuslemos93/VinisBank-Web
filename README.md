@@ -1,5 +1,5 @@
 <h1 align="center">VinisBank - Web</h1>
-<h4 align="center">Aplicação de um banco Digital que realiza algumas operações bancárias.</h4> &#xa0;
+<h4 align="center">Aplicação de um banco Digital que realiza algumas operações bancárias, como PIX, Depósitos, Pagamento de Boletos, Recarga de Celular e Extrato.</h4> &#xa0;
 
 **<p align="center">Sumário</p>**
 <p align="center">
