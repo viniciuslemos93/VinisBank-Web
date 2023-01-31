@@ -10,34 +10,10 @@
 </head>
 <body>
     <div class="container">
-        <!--
-        <script>
-            var login = sessionStorage.getItem("login")            
-            mostrarCabecalho =`
-                <header class="container">
-                    <h1 class="titulo">VinisBank Web | <span>Home</span></h1>
-                        <div class="text-sm-left justify-content-center">
-                            <p class="bem-vindo">Bem vindo(a) ${login}</p>
-                            <p class="saldo">Saldo: R$ 250,00</p>
-                        </div>                        
-                        <a class="bem-vindo d-flex justify-content-end" href="../../index.html">Sair</a>
-                </header>
-                
-                `
-        document.getElementById('container').innerHTML = mostrarCabecalho;
-         </script>
-         
-        <div>
-            <strong>Saldo<br>R$ 100,00</strong>
-        </div>
-        <div>
-            <a href="../../index.html"><strong>Sair</strong></a>
-        </div>
-        -->
         <header class="container containerPersonalizado">
             <h1 class="titulo">VinisBank Web | <span>Home</span></h1>
                 <div class="d-flex justify-content-between">
-                    <p class="bem-vindo">Bem vindo(a) ${login}</p>
+                    <p id="bem-vindo"></p>
                     <p class="saldo">Saldo: R$ <span id="saldo">250,00</span></p>
                     <a class="bem-vindo" href="../../index.html">Sair</a>
                 </div>

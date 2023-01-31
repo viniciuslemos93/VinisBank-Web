@@ -71,7 +71,7 @@ label {
 span {
     color: var(--cor3);    
 }
-.bem-vindo {
+#bem-vindo, .bem-vindo {
     font-family: var(--fonte-padrao);
     font-weight: bold;
     color: white;
