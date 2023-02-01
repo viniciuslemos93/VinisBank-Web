@@ -18,6 +18,21 @@
 <p>O principal objetivo do projeto foi solidificar mais o conceito de posicionamento dos elementos da página.</p>
 <p>E também consolidar o conhecimento do Framework Bootstrap para a estilização.</p>
 
+<div align="center">
+<h3> Tela de cadastro</h3>
+<img align="center" alt="Print da tela de cadastro da aplicação"width="500" src="./assets/images/tela-cadastro.png">
+</div>
+
+<div align="center">
+<h3> Tela de Login</h3>
+<img align="center" alt="Print da tela de login da aplicação"width="500" src="./assets/images/tela-login.png">
+</div>
+
+<div align="center">
+<h3> Tela de Usuário</h3>
+<img align="center" alt="Print da tela principal da aplicação"width="500" src="./assets/images/print-tela-principal.PNG">
+</div>
+
 &#xa0;
 
 ## :computer: Tecnologias
@@ -46,13 +61,6 @@ $ git clone https://github.com/viniciuslemos93/VinisBank-Web.git
 
 # Acesse a pasta do projeto e abra o arquivo index.html no navegador
 ```
-
-&#xa0;
-
-## :pencil2: Layout
-<div align="center">
-<img align="center" alt="Print da tela da aplicação"width="500" src="./assets/images/print-tela-principal.PNG">
-</div>
 
 &#xa0;
 
