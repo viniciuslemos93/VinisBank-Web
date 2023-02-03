@@ -4,11 +4,12 @@
 **<p align="center">Sumário</p>**
 <p align="center">
 <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
+<a href="#computer-tecnologias">Tecnologias</a> |
+<a href="#books-O-que-eu-aprendi">O que aprendi</a> &#xa0; 
 </p>
 <p align="center">
 <a href="#hammer_and_wrench-serviços">Serviços</a> &#xa0; | &#xa0;
 <a href="#scroll-rodando-o-projeto">Rodando o projeto</a> &#xa0; | &#xa0;
-<a href="#link-links">Links</a> &#xa0; | &#xa0;
 <a href="#sparkles-autor">Autor</a>
 </p>
 
@@ -16,7 +17,25 @@
  
 ## :dart: Sobre
 <p>O principal objetivo do projeto foi solidificar mais o conceito de posicionamento dos elementos da página.</p>
-<p>E também consolidar o conhecimento do Framework Bootstrap para a estilização.</p>
+<p>Começar a trabalhar com dados do SessionStorage</p>
+<p>E também consolidar o conhecimento do Framework Bootstrap para a estilização e responsividade.</p>
+
+### Deploy: https://viniciuslemos93.github.io/VinisBank-Web/
+
+<div align="center">
+<h3> Tela de cadastro</h3>
+<img align="center" alt="Print da tela de cadastro da aplicação"width="500" src="./assets/images/tela-cadastro.png">
+</div>
+
+<div align="center">
+<h3> Tela de Login</h3>
+<img align="center" alt="Print da tela de login da aplicação"width="500" src="./assets/images/tela-login.png">
+</div>
+
+<div align="center">
+<h3> Tela de Usuário</h3>
+<img align="center" alt="Print da tela principal da aplicação"width="500" src="./assets/images/print-tela-principal.PNG">
+</div>
 
 &#xa0;
 
@@ -34,6 +53,18 @@
 ## :hammer_and_wrench: Serviços
 * <a href="https://github.com/">GitHub</a>
 
+&#xa0;
+
+## :books: O que eu aprendi?
+
+📌 Trabalhar com SessionStorage;
+
+📌 Alinhamento de elementos com o Flexbox;
+
+📌 Responsividade com o Bootstrap;
+
+📌 Estilização de elementos com o Bootstrap;
+
 
 &#xa0;
 
@@ -46,19 +77,6 @@ $ git clone https://github.com/viniciuslemos93/VinisBank-Web.git
 
 # Acesse a pasta do projeto e abra o arquivo index.html no navegador
 ```
-
-&#xa0;
-
-## :pencil2: Layout
-<div align="center">
-<img align="center" alt="Print da tela da aplicação"width="500" src="./assets/images/print-tela-principal.PNG">
-</div>
-
-&#xa0;
-
-## :link: Links
-* Repositório: https://github.com/viniciuslemos93/VinisBank-Web
-* Deploy: https://viniciuslemos93.github.io/VinisBank-Web/
 
 &#xa0;
 
