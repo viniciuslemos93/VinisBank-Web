@@ -5,13 +5,18 @@ bemVindo.innerHTML=`Bem vindo(a) ${login}`
 
 
 document.getElementById('deposito').addEventListener('click', depositar);
-var saldo = document.getElementById('saldo').innerText
-parseFloat(saldo)
+
+var saldoStr = document.getElementById('saldo').innerText
+var saldo = parseFloat(saldoStr);
+
 function depositar() {
-    var deposito = prompt("Valor do Depósito");
-    
+    var depositoStr = prompt("Valor do Depósito");
+    let deposito = parseFloat(depositoStr);
+    console.log(deposito)
+    console.log(saldo)
     saldo = saldo + deposito
-    //saldo = parseFloat(saldo + deposito)
-    //saldo = parseFloat((saldo) + (deposito))
-    console.log(saldo)    
+    console.log('Novo saldo abaixo')
+    var saldoFormatado = +(saldo.toFixed(2))
+    console.log(saldoFormatado)
+    
 }
