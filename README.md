@@ -17,7 +17,8 @@
  
 ## :dart: Sobre
 <p>O principal objetivo do projeto foi solidificar mais o conceito de posicionamento dos elementos da página.</p>
-<p>E também consolidar o conhecimento do Framework Bootstrap para a estilização.</p>
+<p>Começar a trabalhar com dados do SessionStorage</p>
+<p>E também consolidar o conhecimento do Framework Bootstrap para a estilização e responsividade.</p>
 
 ### Deploy: https://viniciuslemos93.github.io/VinisBank-Web/
 
