@@ -14,9 +14,7 @@ function depositar() {
     let deposito = parseFloat(depositoStr);
     console.log(deposito)
     console.log(saldo)
-    saldo = saldo + deposito
-    console.log('Novo saldo abaixo')
-    var saldoFormatado = +(saldo.toFixed(2))
-    console.log(saldoFormatado)
-    
+    saldo += deposito
+
+    document.getElementById('saldo').textContent = (saldo);
 }
