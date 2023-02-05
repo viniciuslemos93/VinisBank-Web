@@ -37,7 +37,7 @@ function validarCamposLogin(login) {
     msg += 'Informe o seu usuário de Login\n'
   }
   if (!login.senha) {
-    msg += 'Informe a sua senha \n'  
+    msg += 'Informe a sua senha \n'
   if (msg != '') {
     alert(msg)
     return false
